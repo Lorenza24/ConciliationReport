@@ -30,4 +30,5 @@ def point_2(df):
     """
 
     # Apply the authorization_code function row-wise
-    return df.apply(authorization_code, axis=0)
+    return df.apply(authorization_code, axis=1)
+    
